@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CALCViewController : UIViewController
-
+@interface CALCViewController : UIViewController {
+    @private
+    NSNumberFormatter *numberFormatter;
+}
 @end
